@@ -37,8 +37,8 @@ Input >>>
 ===============================
    ---LogIn ConsoleBanking---
 ===============================
-login:                   <<<
-password:
+Email:                   <<<
+Password:
 --------------- ----------------
   1. Enter     |      2. Back
 ———————----—-—— ———————————-----
@@ -50,10 +50,12 @@ Input >>>
 ```
 ===============================
    ---Create a new account---
-     ---in ConsoleBanking---
+    ---in ConsoleBanking---
 ===============================
-login:                   <<<
-password:
+First Name:              <<<
+Last Name:
+Email:                   
+Password:
 --------------- ----------------
   1. Enter     |      2. Back
 ———————----—-—— ———————————-----
@@ -77,4 +79,56 @@ Information   |       3
 Log Out       |       4
 ——————————————————————---------
 input >>> 
+```
+
+5. #### Send Money page
+
+```
+===============================
+      ---ConsoleBanking---
+===============================
+     Balance   |      999
+--------------- ---------------
+Recipient:               <<<
+Amount:
+--------------- ----------------
+  1. Enter     |      2. Back
+———————----—-—— ———————————-----
+Input >>>
+```
+
+6. #### History page
+
+```
+===============================
+      ---ConsoleBanking---
+   ---History Transactions---
+===============================
+    date   amount   recipient
+
+
+--------------- ----------------
+  1. Enter     |      2. Back
+———————----—-—— ———————————-----
+Input >>>
+```
+
+7. #### Information page
+
+```
+===============================
+      ---ConsoleBanking---
+        ---Information---
+===============================
+Name:            name
+Email:           email
+
+Account number:
+xxxx xxxx xxxx
+Date of registration:
+xx.xx.xxxx
+--------------- ----------------
+  1. Enter     |      2. Back
+———————----—-—— ———————————-----
+Input >>>
 ```
