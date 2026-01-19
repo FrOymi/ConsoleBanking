@@ -21,14 +21,14 @@ public class Interface {
         return showAuthorizationPage();
     }
 
-    public static Boolean showLogInPage() {
+    public static void showLogInPage() {
         String email;
         String password;
         System.out.print("===============================\n" +
                 "   ---LogIn ConsoleBanking---\n" +
                 "===============================\n" +
-                "Email: " + email + "                 <<<\n" +
-                "Password:\n" + password +
+                "Email:                 <<<\n" +
+                "Password:\n" +
                 "--------------- ----------------\n" +
                 "  1. Enter     |      2. Back\n" +
                 "--------------- ----------------\n" +
